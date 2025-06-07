@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Công Cụ Cá Cược Baccarat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Công Cụ Cá Cược Baccarat</h1>
+
+        <!-- Phần nhập kết quả -->
+        <div class="input-section">
+            <button id="P-btn" class="btn blue">P</button>
+            <button id="B-btn" class="btn red">B</button>
+            <button id="undo-btn" class="btn orange">Undo</button>
+            <button id="reset-btn" class="btn pink">Reset</button>
+        </div>
+
+        <!-- Hiển thị kết quả nhập -->
+        <div id="results-list" class="results-list"></div>
+
+        <!-- Bảng hiển thị kết quả dự đoán của 13 người chơi -->
+        <div class="players-section">
+            <h2>Dự đoán của các người chơi</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Người chơi</th>
+                        <th>Thuật toán</th>
+                        <th>Dự đoán</th>
+                        <th>Kết quả</th>
+                    </tr>
+                </thead>
+                <tbody id="players-predictions">
+                    <!-- Kết quả sẽ hiển thị ở đây -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Dòng kết quả cuối cùng -->
+        <div id="final-result"></div>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
